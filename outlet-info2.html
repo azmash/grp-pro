@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Frontpage - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link href="temp.css" rel="stylesheet">
+    <style>
+      body{margin-top:20px;}
+
+      .profile {
+        width: 100%;
+        position: relative;
+        background: #FFF;
+        border: 1px solid #D5D5D5;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+      }
+
+      .profile .image {
+        display: block;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+        border: 5px solid #FFF;
+      }
+
+      .profile .user {
+        position: relative;
+        padding: 0px 5px 5px;
+      }
+
+      .profile .user .avatar {
+        position: absolute;
+        left: 20px;
+        top: -85px;
+        z-index: 2;
+      }
+
+      .profile .user h2 {
+        font-size: 16px;
+        line-height: 20px;
+        display: block;
+        float: left;
+        margin: 4px 0px 0px 135px;
+        font-weight: bold;
+      }
+
+      .profile .user .actions {
+        float: right;
+      }
+
+      .profile .user .actions .btn {
+        margin-bottom: 0px;
+      }
+
+      .profile .info {
+        float: left;
+        margin-left: 20px;
+      }
+
+      .img-profile{
+          height:100px;
+          width:100px;
+      }
+
+      .img-cover{
+          width:800px;
+          height:300px;
+      }
+
+      @media (max-width: 768px) {
+        .btn-responsive {
+          padding:2px 4px;
+          font-size:80%;
+          line-height: 1;
+          border-radius:3px;
+        }
+      }
+
+      @media (min-width: 769px) and (max-width: 992px) {
+        .btn-responsive {
+          padding:4px 9px;
+          font-size:90%;
+          line-height: 1.2;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img rel="icon" src="imageedit_12_7024664115.png" height="30px" widht="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="browse.html">Browse Directory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="regist.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="col-md-8">
+      <div class="profile clearfix">                            
+          <div class="image">
+              <img src="https://lorempixel.com/700/300/nature/2/" class="img-cover">
+          </div>                            
+          <div class="user clearfix">
+              <div class="avatar">
+                  <img src="https://bootdey.com/img/Content/user-453533-fdadfd.png" class="img-thumbnail img-profile">
+              </div>                                
+              <h2>Martin maoth</h2>                                
+              <div class="actions">
+                  <div class="btn-group">
+                      <button class="btn btn-default btn-sm tip btn-responsive" title="" data-original-title="Add to friends"><span class="glyphicon glyphicon-plus glyphicon glyphicon-white"></span> Friends</button>
+                      <button class="btn btn-default btn-sm tip btn-responsive" title="" data-original-title="Send message"><span class="glyphicon glyphicon-envelope glyphicon glyphicon-white"></span> Message</button>
+                      <button class="btn btn-default btn-sm tip btn-responsive" title="" data-original-title="Recommend"><span class="glyphicon glyphicon-share-alt glyphicon glyphicon-white"></span> Recommend</button>
+                  </div>
+              </div>                                                                                                
+          </div>                          
+          <div class="info">
+              <p><span class="glyphicon glyphicon-globe"></span> <span class="title">Address:</span>  St. Revutskogo, Kiev, Ukraine</p>                                    
+              <p><span class="glyphicon glyphicon-gift"></span> <span class="title">Date of birth:</span> 14.02.1989</p>                                
+          </div>                              
+      </div>
+  </div>
+
+
+    <!-- Footer -->
+    <footer class="footer py-2">
+      <div class='row'>
+        <div class="col-sm" style="color: white" >
+          <div class="container"  style="font-size:12px">
+            <span>Copyright @ 2018 - Wonderlabs Academy</span><br>
+            <span>All Right Reserved</span>
+          </div>
+        </div>
+        <div class="col-sm block">
+            <div class="container block ">
+              <div class="float-right" style="font-size:12px">
+                <a href="#" class="block mr-8 ml-4 text-light" >Term of Use</a>
+                <a href="#" class="block mr-8 ml-4 text-light">Privacy Policy</a>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+  </body>
+
+</html>
